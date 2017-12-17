@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto";
+
+$fatface: "Abril Fatface", serif;
+
+$orange: #f1c40f;
+$light-grey: #ecf0f1;
+$asphalt: #34495e;
+
+body {
+    background-color: $light-grey;
+    color: $orange;
+    text-align: center;
+    font-family: $fatface;
+    font-size: 8rem;
+}
+
+a {
+    text-decoration: none;
+    color:$asphalt;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
